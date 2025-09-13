@@ -12,7 +12,10 @@ export const welcome = () => {
 
     // isi foto pasangan
     const generateFigureContent = (bride) => {
-        const {L: {name: brideLName}, P: {name: bridePName}, couple: coupleImage} = bride;
+        const {L, P, couple: coupleImage} = bride;
+        const brideLName = L.shortName || L.name.split(' ')[0];
+        const bridePName = P.shortName || P.name.split(' ')[0];
+        //const {L: {name: brideLName}, P: {name: bridePName}, couple: coupleImage} = bride;
         return `
             <img src="${coupleImage}" alt="couple animation">
             <figcaption>
