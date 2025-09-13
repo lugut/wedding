@@ -10,6 +10,7 @@ export const welcome = () => {
     const [audioMusic, audioButton] = document.querySelector('.audio').children;
     const [iconButton] = audioButton.children;
 
+    // isi foto pasangan
     const generateFigureContent = (bride) => {
         const {L: {name: brideLName}, P: {name: bridePName}, couple: coupleImage} = bride;
         return `
@@ -19,25 +20,24 @@ export const welcome = () => {
             </figcaption>`;
     };
 
+    // isi nama tamu dari parameter
     const generateParameterContent = () => {
-        const name = document.querySelector('#name');
-        const params = getQueryParameter('to');
+        // bisa ?to=Nama atau ?nama=Nama
+        const params = getQueryParameter('to') || getQueryParameter('nama');
 
         if (params) {
             weddingToElement.innerHTML = `Kepada Yth Bapak/Ibu/Saudara/i<br><span>${params}</span>`;
-            name.value = params;
         } else {
             weddingToElement.innerHTML = `Kepada Yth Bapak/Ibu/Saudara/i<br><span>Teman-teman semua</span>`;
         }
     }
 
+    // kontrol musik
     const initialAudio = () => {
         let isPlaying = false;
-
         audioMusic.innerHTML = `<source src=${data.audio} type="audio/mp3"/>`;
 
         audioButton.addEventListener('click', () => {
-
             if (isPlaying) {
                 addClassElement(audioButton, 'active');
                 removeClassElement(iconButton, 'bx-play-circle');
@@ -53,6 +53,7 @@ export const welcome = () => {
         });
     };
 
+    // tombol "Buka Undangan"
     openWeddingButton.addEventListener('click', () => {
         addClassElement(document.body, 'active');
         addClassElement(welcomeElement, 'hide');
@@ -71,6 +72,7 @@ export const welcome = () => {
         }, 3000);
     });
 
+    // inisialisasi welcome
     const initializeWelcome = () => {
         figureElement.innerHTML = generateFigureContent(data.bride);
         generateParameterContent();
