@@ -10,7 +10,7 @@ export const data = {
         },
         P: {
             id: 2,
-            name: 'Sebut saja bunga',
+            name: '@🥳🥳🥳',
             child: 'Putri ke 2',
             father: 'ayahanda',
             mother: 'ibunda',
@@ -22,7 +22,7 @@ export const data = {
 
     time: {
         marriage: {
-            year: '2029',
+            year: '2025',
             month: 'November',
             date: '14',
             day: 'Kamis',
@@ -32,7 +32,7 @@ export const data = {
             }
         },
         reception: {
-            year: '2024',
+            year: '2025',
             month: 'November',
             date: '14',
             day: 'Kamis',
