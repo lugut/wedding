@@ -26,7 +26,7 @@ bride: {
 
         id: 2,
 
-        name: 'Nama lengkap,
+        name: 'Nama lengkap',
 
         shortName: "asss", // bisa pilih nama tengah/depan
         
