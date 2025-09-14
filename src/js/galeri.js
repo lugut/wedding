@@ -1,6 +1,13 @@
 import {data} from "../assets/data/data.js";
+import {config} from "../assets/data/config.js";
 
 export const galeri = () => {
+    // kalau gallery dimatikan di config, langsung hilangkan section
+    if (!config.gallery) {
+        const galeriElement = document.querySelector('.galeri');
+        if (galeriElement) galeriElement.remove();
+        return;
+    }
 
     const galeriElement = document.querySelector('.galeri');
     const showAllContainer = galeriElement.querySelector('div:nth-of-type(2)');
@@ -21,10 +28,8 @@ export const galeri = () => {
 
     const updateGalleryImage = (id) => {
         const selectedImage = data.galeri.find(item => item.id === id);
-
         if (selectedImage) {
             figureElement.innerHTML = `<img src="${selectedImage.image}" alt="galeri image" id="${selectedImage.id}">`;
-
             paginationElement.querySelectorAll('li').forEach((li) => {
                 li.classList.toggle('active', parseInt(li.dataset.id) === id);
             });
@@ -79,5 +84,5 @@ export const galeri = () => {
             const id = +e.target.dataset.id;
             updateGalleryImage(id);
         })
-    })
+    });
 };
