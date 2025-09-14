@@ -1,4 +1,3 @@
-data.js seperti ini
 export const data = {
 
 bride: {
