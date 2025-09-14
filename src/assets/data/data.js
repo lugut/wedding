@@ -6,9 +6,11 @@ bride: {
 
         id: 1,
 
-        name: 'Syuhadak',
+        name: 'muhamad alfi syuhadak',
 
-        shortName: "alfisyuhadak",   // nama tampilan manual
+        shortName: "alfi",   // nama tampilan manual
+        
+        displayName: "@alfisyuhadak",   // ini yang muncul di undangan
 
         child: 'Putra ke 1',          
 
@@ -24,9 +26,11 @@ bride: {
 
         id: 2,
 
-        name: 'new tester',
+        name: 'Nama lengkap,
 
-        shortName: "tes", // bisa pilih nama tengah/depan
+        shortName: "asss", // bisa pilih nama tengah/depan
+        
+        displayName: "@tiktok",   // ini yang muncul di undangan
 
         child: 'Putri ke 2',
 
@@ -50,11 +54,11 @@ time: {
 
     marriage: {
 
-        year: '2029',
+        year: '2025',
 
-        month: 'November',
+        month: 'Oktober',
 
-        date: '14',
+        date: '06',
 
         day: 'Kamis',
 
@@ -70,11 +74,11 @@ time: {
 
     reception: {
 
-        year: '2024',
+        year: '2025',
 
-        month: 'November',
+        month: 'Oktober',
 
-        date: '14',
+        date: '06',
 
         day: 'Kamis',
 
@@ -88,7 +92,7 @@ time: {
 
     },
 
-    address: 'Alamat cowo'
+    address: 'bungkuk parang magetan'
 
 },
 
@@ -98,7 +102,7 @@ link: {
 
     calendar: 'https://calendar.app.google/oSVLRMYC79GzuA4f9',
 
-    map: 'https://maps.app.goo.gl/q1Ask2Jgd4ekiiKBA',
+    map: 'https://maps.app.goo.gl/7cwHLM39rvPDcomP6',
 
 },
 
