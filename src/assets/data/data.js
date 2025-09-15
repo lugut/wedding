@@ -10,7 +10,7 @@ bride: {
 
         shortName: "alfi",   // nama tampilan manual
         
-        displayName: "@alfisyuhadak",   // ini yang muncul di undangan
+        displayName: "alfi",   // ini yang muncul di undangan
 
         child: 'Putra ke 1',          
 
@@ -28,9 +28,9 @@ bride: {
 
         name: 'Nama lengkap',
 
-        shortName: "asss", // bisa pilih nama tengah/depan
+        shortName: "az", // bisa pilih nama tengah/depan
         
-        displayName: "@tiktok",   // ini yang muncul di undangan
+        displayName: "-----",   // ini yang muncul di undangan
 
         child: 'Putri ke 2',
 
