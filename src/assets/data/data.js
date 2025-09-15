@@ -6,17 +6,17 @@ bride: {
 
         id: 1,
 
-        name: 'muhamad alfi syuhadak',
+        name: 'emboeh',
 
-        shortName: "alfi",   // nama tampilan manual
+        shortName: "rusak",   // nama tampilan manual
         
-        displayName: "alfi",   // ini yang muncul di undangan
+        displayName: "rusak",   // ini yang muncul di undangan
 
-        child: 'Putra ke 1',          
+        child: 'Putra ke 11',          
 
-        father: 'father',
+        father: 'Presiden',
 
-        mother: 'Mother',
+        mother: 'Ibu Negara',
 
         image: './src/assets/images/cowo.png'
 
@@ -54,17 +54,17 @@ time: {
 
     marriage: {
 
-        year: '2025',
+        year: '2095',
 
-        month: 'Oktober',
+        month: '13',
 
-        date: '06',
+        date: '32',
 
         day: 'Kamis',
 
         hours: {
 
-            start: '08.00',
+            start: '00.00',
 
             finish: 'Selesai'
 
@@ -92,7 +92,7 @@ time: {
 
     },
 
-    address: 'bungkuk parang magetan'
+    address: 'perempatan buntu'
 
 },
 
@@ -102,7 +102,7 @@ link: {
 
     calendar: 'https://calendar.app.google/oSVLRMYC79GzuA4f9',
 
-    map: 'https://maps.app.goo.gl/7cwHLM39rvPDcomP6',
+    map: 'https://www.google.com/maps/place/-8.028945,+109.304459/@-7.9543729,109.2796146,11z/data=!4m4!3m3!8m2!3d-8.0289453!4d109.3044586?utm_campaign=ml-ardl&g_ep=Eg1tbF8yMDI1MDkxMF8wIOC7DCoASAJQAQ%3D%3D',
 
 },
 
